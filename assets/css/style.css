@@ -146,13 +146,13 @@ p {
 
 .achievement {
 	background-color:#F5F5F5;
-	padding: 20px 10px;
+	padding: 20px 0px;
 }
  .ach {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr); color: #68676A; border-radius: 5px;
 }
-.ac1{padding: 20px;text-align: center;}
+.ac1{padding: 10px;text-align: center;}
 .ac1 h3{font-size: 20px; color:#68676A;}
 .ac1:last-child{border: none;}
 
