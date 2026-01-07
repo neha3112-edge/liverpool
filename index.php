@@ -54,7 +54,7 @@ $accordionData = [
             <div class="ac1">
       <i class="fa fa-user" style="font-size:30px!important;"></i>
                 <h3>Eligibility</h3>
-                <p> UGC degree + 2 year's experience</p>
+                <p> Recognized degree + 2 yrs experience</p>
             </div>
 
             <div class="ac1">
