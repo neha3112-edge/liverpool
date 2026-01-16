@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="assets/img/liverpool-fevi.png"/>
     <title>Liverpool John Moores University Online MBA</title>
-    <meta decription="Liverpool John Moores University Online MBA University | Masters in Business Administration. Find Online Course Fees, Eligibility and Admission Details 2026">
+    <meta name="description" content="Liverpool John Moores University Online MBA University | Masters in Business Administration. Find Online Course Fees, Eligibility and Admission Details 2026">
     <meta keyword="Liverpool John Moores University Online MBA,liverpool business school mba program,university of liverpool mba online,liverpool business school online mba">
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
