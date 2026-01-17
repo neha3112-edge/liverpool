@@ -1072,43 +1072,89 @@ body {
     transition: all 0.3s ease;
 }
 
-/* --- FIXED MOBILE RESPONSIVENESS --- */
+/* --- UPDATED MOBILE RESPONSIVENESS --- */
 @media (max-width: 991px) {
     .mba-journey-cert-wrapper {
-        padding: 40px 20px;
+        padding: 40px 0px; /* Removed side padding to give slider full width */
     }
 
     .mba-journey-cert-container {
-        grid-template-columns: 1fr; /* Stack vertically */
-        gap: 30px;
+        grid-template-columns: 1fr;
+        gap: 20px;
         text-align: center;
+        width: 100%;
     }
     
     .mba-journey-cert-left {
-        order: 1; /* Slider stays on top */
+        overflow: hidden;
     }
 
-    .mba-journey-cert-right {
-        order: 2; /* Text goes below slider */
+    #mbaCertSwiperInstance {
+        width: 100%;
+        padding-bottom: 40px !important;
+    }
+
+    .mba-journey-cert-swiper-class .swiper-slide {
+        width: 100% !important; /* Forces the slide to take full width for proper snapping */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .mba-journey-cert-swiper-class img {
-        /* On mobile, let width drive the size so it fits standard screens */
         height: auto; 
-        max-height: 300px; /* Reduced for smaller screens */
-        width: 85%; /* Shows a peek of the next/prev slide or just centers better */
-        border-width: 5px; /* Thinner border for mobile */
+        max-height: 350px; 
+        width: 85%; /* Keep at 85% to ensure it fits mobile screens perfectly */
+        border-width: 5px;
+        margin: 0 auto;
     }
 
     .mba-journey-cert-heading {
         font-size: 24px;
-        margin-bottom: 18px;
-        line-height: 1.3;
+        padding: 0 20px; /* Add padding back to text only */
     }
 
-    .mba-journey-cert-body p {
-        font-size: 14px;
-        line-height: 1.6;
+    .mba-journey-cert-body {
+        padding: 0 20px;
+    }
+}
+
+
+
+/* Navigation Arrow Styling */
+.mba-cert-next, .mba-cert-prev {
+    color: #00e5d1 !important; /* Teal color */
+    transform: scale(0.5); /* Slightly smaller arrows for a modern look */
+    transition: all 0.3s ease;
+}
+
+.mba-cert-next:after, .mba-cert-prev:after {
+    font-weight: bold;
+}
+
+.mba-cert-next:hover, .mba-cert-prev:hover {
+    color: #ffffff !important;
+}
+
+/* Ensure arrows are visible on top of images */
+#mbaCertSwiperInstance {
+    padding-bottom: 0px !important; /* Removed padding since dots are gone */
+    position: relative;
+}
+
+/* Mobile Specific Arrow Adjustments */
+@media (max-width: 991px) {
+    .mba-cert-next, .mba-cert-prev {
+        top: 50% !important; /* Center vertically on the image */
+        margin-top: -20px;
+    }
+    
+    .mba-journey-cert-wrapper {
+        padding: 40px 10px; /* Tighten layout for mobile */
+    }
+    
+    .mba-journey-cert-swiper-class .swiper-slide {
+        width: 100% !important;
     }
 }
 

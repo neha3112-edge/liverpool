@@ -182,7 +182,8 @@ apply research insights to consultancy projects, solving industry-specific chall
                         <img src="assets/img/cert-2.webp" alt="LBS Certificate">
                     </div>
                 </div>
-                <div class="swiper-pagination mba-journey-cert-pagination"></div>
+                <div class="swiper-button-next mba-cert-next"></div>
+                <div class="swiper-button-prev mba-cert-prev"></div>
             </div>
         </div>
 
@@ -670,17 +671,34 @@ window.addEventListener("pageshow", function () {
 document.addEventListener('DOMContentLoaded', function() {
     const mbaCertSlider = new Swiper('#mbaCertSwiperInstance', {
         loop: true,
-        speed: 600, // Slightly faster for a "snappy" slide feel
-        centeredSlides: true, 
+        speed: 600,
+        centeredSlides: true,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        observer: true, 
+        observeParents: true,
+        
+        // DISABLE TOUCH/SWIPE INTERACTION
+        allowTouchMove: false, 
+        grabCursor: false,
+
         autoplay: {
             delay: 2000,
             disableOnInteraction: false,
         },
-        // Changed effect from 'fade' to 'slide'
+
+        // Navigation Arrows
+        navigation: {
+            nextEl: '.mba-cert-next',
+            prevEl: '.mba-cert-prev',
+        },
+
         effect: 'slide', 
-        pagination: {
-            el: '.mba-journey-cert-pagination',
-            clickable: true,
+        
+        on: {
+            init: function () {
+                this.update();
+            },
         },
     });
 });
