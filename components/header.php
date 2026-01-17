@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -67,7 +70,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="nav-header">
                
                     <a href="https://liverpool.distanceeducationschool.in/">  
-                        <img src="assets/img/liverpool-logo.png" class="logo" alt="Logo">
+                        <img src="assets/img/new-logo.png" class="logo" alt="Logo">
                     </a>
                
             </div>

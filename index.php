@@ -3,11 +3,11 @@
 
 <?php
 $accordionData = [
-    ["title" => "Is Liverpool John Moores University Online MBA a good option?", "content" => "Yes, the LJMU Online MBA is hosted by Liverpool Business School, which crafts business programs that combine practical business knowledge with leadership development. Therefore, it is ideal for professionals seeking career growth. "],
-   ["title" => "Does the Liverpool Business School MBA program have value?", "content" => "Yes, Liverpool Business School Online MBA has strong value as learners receive an MBA degree from Liverpool Business School and a management certificate from IMT Ghaziabad."],
-   ["title" => "Can completing an online MBA from LJMU help me get a job? ", "content" => "Yes, the University of Liverpool MBA Online can help in job growth by building real-world skills through case studies and simulations, offering electives for specialisation and access to a global alumni network."],
-   ["title" => "Is Liverpool John Moores University Online MBA valid?", "content" => "Yes. The Liverpool Business School Online MBA program is fully AACSB accredited and WESrecognised."],
-	["title" => "Can I work while pursuing an online MBA from Liverpool John Moores University? ", "content" => "Yes. Liverpool John Moores University Online MBA is in a flexible online format which allows professionals to continue working while studying, balancing career and education effectively."]
+    ["title" => " Is Liverpool Business School Online MBA a good option?", "content" => "Yes, the LBS online MBA is hosted by Liverpool Business School, which crafts business programs that combine practical business knowledge with leadership development. Therefore, it is ideal for professionals seeking career growth. "],
+   ["title" => "Does the Liverpool Business School MBA program have value?", "content" => "Yes, Liverpool Business School Online MBA  has strong value as learners receive an MBA degree from Liverpool Business School and a management certificate from IMT Ghaziabad."],
+   ["title" => "Can Learners get a job after completing LBS online MBA? ", "content" => "Yes, the University of Liverpool MBA Online can help in job growth by building real-world skills through case studies and simulations, offering electives for specialisation and access to a global alumni network."],
+   ["title" => "Is Liverpool Business School Online MBA valid?", "content" => "Yes. The LBS Online MBA program is fully AACSB accredited and WES-recognised."],
+	["title" => "Can I work while pursuing a Liverpool Business School Online MBA? ", "content" => "Yes, LBS MBA learning is in a flexible online format which allows professionals to continue working while studying, balancing career and education effectively."]
 ];
 ?>
 <?php include __DIR__ . '/components/popup.php'; ?>
@@ -22,15 +22,17 @@ $accordionData = [
            <div class="banner-info">
             <p class="t1">Where Career Growth Meets Global Prestige</p>
             <h1>Online MBA</h1>
-            <h2>18-Month Program By Liverpool John Moores University</h2><br>
-            <p>The Liverpool Business School MBA program is an online program that challenges and focuses on enhancing real-world applications in the workplace. It provides insight into several sectors of leadership, management and business functions.</p><br>
+            <h2>18-Month Program By Liverpool Business School</h2><br>
+            <p>The Liverpool Business School MBA is offered online in collaboration with IMT Ghaziabad. The program focuses on enhancing real-world workplace skills and providing insights into leadership, management, and business functions.</p><br>
               <span class="fa fa-book"></span>
               <p style="display: inline-block; margin-left: 10px;">30+ Years of Excellence & Legacy</p>
 
 <br> <span class="fa fa-globe"></span>
-<p style="display: inline-block; margin-left: 10px;">Globally Recognized</p>
+<p style="display: inline-block; margin-left: 10px;">Internationally Recognised</p>
 </br>
-<br>
+<span class="fa fa-shield"></span>
+<p style="display: inline-block; margin-left: 10px;">LBS–IMT Integrated Credentials</p>
+<br><br>
          
             <button class="downloadBrochureBtn">Download Brochure <i class="fa fa-download" style="color:#fff;"></i></button>
            </div>
@@ -54,7 +56,7 @@ $accordionData = [
             <div class="ac1">
       <i class="fa fa-user" style="font-size:30px!important;"></i>
                 <h3>Eligibility</h3>
-                <p> Recognized degree + 2 yrs experience</p>
+                <p> Bachelor’s degree +2 years of experience</p>
             </div>
 
             <div class="ac1">
@@ -73,7 +75,7 @@ $accordionData = [
             <div class="ac1">
                 <i class="fa fa-book" style="font-size:30px!important;"></i>
                 <h3>Level</h3>
-                <p>Post Graduate Degree</p>
+                <p>Postgraduate Degree</p>
             </div>
         </div>
     </div></div>
@@ -81,8 +83,9 @@ $accordionData = [
 <section id="overview">
   <div class="container">
     <div class="info">
-      <h2>ABOUT <span class="green">LIVERPOOL ONLINE MBA PROGRAM</span></h2><br>
-      <p>Liverpool John Moores University Online MBA program is an 18-month personalised and research-driven program that is designed to match the individual needs of all learners.The course offers a powerful combination of double credentials, which enables the learners to achieve an MBA from <strong>Liverpool Business School</strong> along with an <strong>Advanced General Management Certificate from IMT Ghaziabad.</strong> <br>This online MBA course is designed in such a format that allows learners to customise their own curriculum by selecting electives aligned with their interests and extended goals.Liverpool Business School MBA program aims to seeks to address the evidence-based needs of confident, capable senior managers. It helps them to combine strategic insight with strong operational excellence. Students also get access to unlock a strong global network, joining a community of <strong>3,000+ alumni</strong> that provides valuable industry connections, insights, and career opportunities worldwide.
+      <h2>ABOUT <span class="green">THE COURSE</span></h2><br>
+      <p>Liverpool Business School Online MBA program is an 18-month personalised and research-driven program that is designed to match the individual needs of all learners. The course offers a powerful combination of double credentials, which enables the learners to achieve an MBA from Liverpool Business School along with an Advanced General Management Certificate from IMT Ghaziabad.</p><br>
+      <p>This LBS online MBA course is designed in such a format that allows learners to customize their own curriculum by selecting electives aligned with their interests and extended goals. The LBS MBA learning program aims to address the evidence-based needs of confident, capable senior managers. It helps them to combine strategic insight with strong operational excellence. Students also get access to unlock a strong global network, joining a community of  3,000+ alumni that provides valuable industry connections, insights, and career opportunities worldwide.</p>
 
 </p>
 <br><div>
@@ -92,58 +95,117 @@ $accordionData = [
   </div>
 </section>
 
-<section id="why-choose" class="mba-offer-section">
-  <div class="container">
 
-    <h2 class="section-title">WHAT DOES<br><span>LJMU MBA OFFER?</span></h2>
 
-    <div class="content-wrapper">
 
-      <!-- Left Cards -->
-      <div class="info-column">
-        <div class="info-card">
-          <span class="icon">👤</span>
-          <p>Dual Academic<br>Credentials</p>
+<section class="pathway-section">
+    <div class="pathway-header">
+        <h1>MBA Program Journey</h1>
+        <p>LBS MBA Pathway + IMT-G</p>
+    </div>
+
+    <div class="pathway-container">
+        <div class="pathway-card">
+            <span class="pathway-step-label step-1">Step 01</span>
+            <div class="pathway-inner">
+                <img src="assets/img/imt-logo-696b29d46a3b4.webp">
+                <h3 class="pathway-title">Advanced General Management Certificate From IMT Ghaziabad</h3>
+                <p class="pathway_duration">(11 Months)</p>
+                <!-- <p class="pathway-duration">(11 Month)</p> -->
+                <p class="pathway-text">Over 11 months at IMT Ghaziabad, learners gain practical exposure to core management disciplines, real business challenges, and strategic decision-making, supported by 10+ HBR case studies and simulations.</p>
+            </div>
         </div>
 
-        <div class="info-card">
-          <span class="icon">🎓</span>
-          <p>Dual Alumni<br>Networks</p>
+        <div class="pathway-arrow-box">
+            <span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span>
         </div>
 
-        <div class="info-card">
-          <span class="icon">📝</span>
-          <p>Personalised Flexible<br>Curriculum</p>
-        </div>
-      </div>
-
-      <!-- Center Image -->
-      <div class="center-image"></div>
-
-      <!-- Right Cards -->
-      <div class="info-column">
-        <div class="info-card">
-          <span class="icon">💼</span>
-          <p>Hands-On Practical<br>Learning</p>
+        <div class="pathway-card">
+            <span class="pathway-step-label step-2">Step 02</span>
+            <div class="pathway-inner">
+                <img src="assets/img/lbs-logo-696b29d4429b8.webp">
+                <h3 class="pathway-title">MBA Specialisations</h3>
+                <p class="pathway_duration">(2 Months)</p>
+                <p class="pathway-text">During the 2-month LBS Online MBA phase, learners choose one specialisation and gain advanced, hands-on expertise through focused courses and practical tools. They also develop skills in analytics and real-world, industry-relevant applications.</p>
+            </div>
         </div>
 
-        <div class="info-card">
-          <span class="icon">💰</span>
-          <p>Reduce Your<br>Tuition Cost</p>
+        <div class="pathway-arrow-box">
+            <span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span>
         </div>
 
-        <div class="info-card">
-          <span class="icon">🌍</span>
-          <p>Access a<br>Global Community</p>
+        <div class="pathway-card">
+            <span class="pathway-step-label step-3">Step 03</span>
+            <div class="pathway-inner">
+                <img src="assets/img/lbs-logo-696b29d4429b8.webp">
+                <h3 class="pathway-title">Applied Business Research</h3>
+                <p class="pathway_duration">(1 Month)</p>
+                <p class="pathway-text">In the 1-month LBS MBA learning phase in Applied Research, Students master research methodologies, explore diverse approaches, manage projects and enhance thesis report writing, analysis and presentation skills.</p>
+            </div>
         </div>
-      </div>
+
+        <div class="pathway-arrow-box">
+            <span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span><span>.</span>
+        </div>
+
+        <div class="pathway-card">
+            <span class="pathway-step-label step-4">Step 04</span>
+            <div class="pathway-inner">
+                <img src="assets/img/lbs-logo-696b29d4429b8.webp">
+                <h3 class="pathway-title">Strategic Business Consultancy Project</h3>
+                <p class="pathway_duration">(3 Months)</p>
+                <p class="pathway-text">During the 3-month LBS Strategic Business Consultancy Project, Professionals 
+apply research insights to consultancy projects, solving industry-specific challenges in BFSI, FMCG, IT, automotive, and e-commerce.
+</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pathway-footer">
+        <button class="pathway-btn enquireNowBtn">Get 1:1 Counseling &rarr;</button>
+    </div>
+</section>
+
+
+
+
+<section class="mba-journey-cert-wrapper">
+    <div class="mba-journey-cert-container">
+        
+        <div class="mba-journey-cert-left">
+            <div id="mbaCertSwiperInstance" class="swiper mba-journey-cert-swiper-class">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/cert-1.webp" alt="IMT Certificate">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/cert-2.webp" alt="LBS Certificate">
+                    </div>
+                </div>
+                <div class="swiper-pagination mba-journey-cert-pagination"></div>
+            </div>
+        </div>
+
+        <div class="mba-journey-cert-right">
+            <h2 class="mba-journey-cert-heading"><span class="mba-journey-cert-teal">LBS MBA Pathway + IMT G</span></h2>
+            <h3>Double Certification Edge</h3>
+            
+            <div class="mba-journey-cert-body">                
+                <p>Professionals and Learners can earn an Advanced General Management Certificate from IMT Ghaziabad while developing modern business strategies required for success in management roles. This is complemented by the Liverpool Business School Online MBA, a globally accepted qualification with WES recognition and AACSB membership. Together, these credentials allow students to achieve dual certification within just 18 months, delivering both academic value and practical career impact.</p>
+            </div>
+
+            <button class="mba-journey-cert-action-btn enquireNowBtn">Get Degree &rarr;</button>
+        </div>
 
     </div>
-  </div>
 </section>
+
+
+
+
 <section id="courses_offered">
 <div class="container">
-<center><h2>COURSES OFFERED <br><span class="green">LIVERPOOL JOHN MOORES UNIVERSITY ONLINE</span></h2></center>
+<center><h2>Courses Offered By <br><span class="green">Liverpool Business School Online</span></h2></center>
 <br>
   
 <div class="course-info">
@@ -152,9 +214,7 @@ $accordionData = [
         <img src="assets/img/Business-Analytics.webp" class="img-responsive">
         <div class="cr-info">
         <h2>MBA in Business Analytics</h2>
-		<p>Liverpool John Moores University Online MBA program builds expertise in Python, covering
-core concepts, data analysis using Pandas and NumPy, and machine learning modelling
-with scikit-learn</p>
+		<p>Liverpool Business School Online MBA  program builds expertise in Python, covering core concepts, data analysis using Pandas and NumPy, and machine learning modelling with scikit-learn.</p>
         <hr>
         <br>
         <button class="enquireNowBtn">Apply Now <i class="fa fa-check" style="color:#fff;"></i></button>
@@ -167,7 +227,7 @@ with scikit-learn</p>
        
         <div class="cr-info">
         <h2>MBA in Finance</h2>
-		<p>Liverpool Business School Online MBA in Finance offers a comprehensive approach to mastering finance-driven business. It helps learners to gain knowledge in financial modelling and risk analysis. </p>
+		<p>LBS Online MBA in Finance offers a comprehensive approach to mastering finance-driven business. It helps learners to gain knowledge in financial modelling and risk analysis.</p>
         <hr>
         <br>
         <button class="enquireNowBtn">Apply Now <i class="fa fa-check" style="color:#fff;"></i></button>
@@ -180,7 +240,7 @@ with scikit-learn</p>
     
         <div class="cr-info">
         <h2>MBA in Marketing</h2>
-		<p>The Liverpool MBA Online in Marketing is designed to build future-ready marketing leaders. The course delves into digital marketing channels, key performance metrics, and search engine optimization.</p>
+		<p>The LBS online MBA syllabus in Marketing covers digital marketing channels, analytics, social media, SEO, branding, integrated communications, and B2B marketing for strategic impact.</p>
         <hr>
         <br>
         <button class="enquireNowBtn">Apply Now <i class="fa fa-check" style="color:#fff;"></i></button>
@@ -193,8 +253,7 @@ with scikit-learn</p>
     
         <div class="cr-info">
         <h2>MBA in Leadership</h2>
-		<p>The Liverpool John Moores University Online MBA in Leadership is a program crafted for learners in a VUCA-driven landscape. This Business School MBA tackles volatility across borders. 
-</p>
+		<p>The LBS online MBA syllabus in Leadership equips learners to navigate VUCA environments, manage complexity, lead global teams, and advance their careers using the LEAP growth and development framework.</p>
         <hr>
         <br>
         <button class="enquireNowBtn">Apply Now <i class="fa fa-check" style="color:#fff;"></i></button>
@@ -207,8 +266,7 @@ with scikit-learn</p>
     
         <div class="cr-info">
         <h2>MBA in Human Resource Management</h2>
-		<p>The Liverpool Business School online MBA in HRM is designed to build strategic HR leaders for modern organisations. Through this program, learners focus on effective outsourcing models.
-</p>
+		<p>The LBS Online MBA in HRM is designed to build strategic HR leaders for modern organisations. Through this program, learners focus on effective outsourcing models.</p>
         <hr>
         <br>
         <button class="enquireNowBtn">Apply Now <i class="fa fa-check" style="color:#fff;"></i></button>
@@ -221,10 +279,7 @@ with scikit-learn</p>
     
         <div class="cr-info">
         <h2>MBA in Operations and Supply Chain Management</h2>
-		<p>The Online MBA in Operations and Supply Chain Management from Liverpool John Moores
-University empowers professionals to drive strategically in present-day global markets. 
-
-</p>
+		<p>The LBS Online MBA in Operations and Supply Chain covers distribution management, inventory, integrated supply chains, and analytics for strategic decision-making.</p>
         <hr>
         <br>
         <button class="enquireNowBtn">Apply Now <i class="fa fa-check" style="color:#fff;"></i></button>
@@ -238,8 +293,7 @@ University empowers professionals to drive strategically in present-day global m
 
 <section id="certification">
 <div class="container">
-    <h2>APPROVALS & RECOGNITION <br><span class="green">OF ONLINE LIVERPOOL BUSINESS
-SCHOOL</span></h2><br>
+    <h2>APPROVALS & RECOGNITION <br><span class="green">OF ONLINE LIVERPOOL BUSINESS SCHOOL</span></h2><br>
    
 <div class="b2-info">
     <div class="b1">
@@ -262,22 +316,56 @@ SCHOOL</span></h2><br>
 </div>
 </section>
 
-<div id="sample-degree">
-   <div class="container">
-       <div class="degree">
-    <div><center><img src="assets/img/LJMU.webp" alt="sample-degree" style="max-height: 400px"></center></div>
-   
-       <div class="degree-info">
-           <h2>Sample degree of Liverpool John Moores University</h2><br>
-       
-           <p>The Liverpool John Moores University (LJMU) Online MBA is a globally respected business qualification designed for ambitious professionals seeking to advance their careers without compromising their existing personal or professional commitments. Rooted in a strong academic heritage and delivered through a modern digital learning environment, the programme successfully combines flexibility, academic excellence, and real-world business relevance. As one of the UK’s most established universities, Liverpool John Moores University brings decades of teaching, research, and industry engagement into this comprehensive Online MBA, ensuring learners gain both theoretical knowledge and practical skills that can be applied immediately in the workplace.</p>
-           <br>
-         
-           <button class="enquireNowBtn"> Get Degree <i class="fa fa-check" style="color:#fff;"></i></button>
-       </div>
-   </div>
-   </div>
-</div>
+
+<section id="why-choose" class="mba-offer-section">
+  <div class="container">
+
+    <h2 class="section-title">Why Choose<br><span>Liverpool Business School MBA</span></h2>
+
+    <div class="content-wrapper">
+
+      <!-- Left Cards -->
+      <div class="info-column">
+        <div class="info-card">
+          <span class="icon">👤</span>
+          <p>Dual Academic<br>Credentials</p>
+        </div>
+
+        <div class="info-card">
+          <span class="icon">🎓</span>
+          <p>Dual Alumni<br>Networks (IMT and LBS)</p>
+        </div>
+
+        <div class="info-card">
+          <span class="icon">📝</span>
+          <p>Personalised Flexible<br>Curriculum</p>
+        </div>
+      </div>
+
+      <!-- Center Image -->
+      <div class="center-image"></div>
+
+      <!-- Right Cards -->
+      <div class="info-column">
+        <div class="info-card">
+          <span class="icon">💼</span>
+          <p>Hands-On Practical<br>Learning Experience</p>
+        </div>
+
+        <div class="info-card">
+          <span class="icon">💰</span>
+          <p>Reduce Your<br>Tuition Cost or Unlock Bigger Tuition Savings</p>
+        </div>
+
+        <div class="info-card">
+          <span class="icon">🌍</span>
+          <p>Access a<br>Global Community</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 
@@ -285,20 +373,11 @@ SCHOOL</span></h2><br>
   <div class="container_fluid">
     <div class="about-cnt">
       <div class="ab1">
-        <h2><span class="green">ABOUT</span> LJMU</h2><br>
+        <h2><span class="green">ABOUT </span> LBS</h2><br>
       
-        <p>Liverpool John Moores University (LJMU), was established in 1823. It is one of the top leading
-prestigious UK institutions known for academic excellence, impactful research, and industry
-relevance. LJMU houses the prestigious Liverpool Business School, which offers Master's of
-Business Administration (MBA) fully in online learning mode.
-This globally recognised Online MBA program helps learners to fast-track their career from
-Liverpool Business School, paired with an Advanced General Management Certificate from IMT
-Ghaziabad. The course grants double credentials and alumni status. Professionals get an
-opportunity to customise their curriculum with electives that match their interests. They gain
-hands-on experience through 10+ HBR case studies and simulations, and join a thriving global
-network of 3,000+ alumni. 
+        <p>Liverpool Business School (LBS), an esteemed school within Liverpool John Moores University (LJMU).This institute has over three decades of excellence in business education. It is part of one of the UK’s leading and prestigious institutions, renowned for academic excellence, impactful research, and strong industry relevance.</p><br>
 
-</p><br>
+        <p>This globally recognised Online MBA  program helps learners to fast-track their career from Liverpool Business School, paired with an Advanced General Management Certificate from IMT Ghaziabad. The course grants double credentials and alumni status. Through LBS online MBA syllabus professionals get an opportunity to customise their curriculum with electives that match their interests. They gain hands-on experience through 10+ HBR case studies and simulations, and join a thriving global network of 3,000+ alumni.</p><br>
 
 <button class="enquireNowBtn" ><i class="fa fa-phone" style="color:#fff;"> Request Call Back</i></button>
  
@@ -309,13 +388,11 @@ network of 3,000+ alumni.
 </div>
 
 
-
-
 <!-- start faq -->
 <section id="faqs">
    <div class="container">
    <div class="faq-title">
-           <h2>FAQ-Frequently Asked Questions</h2><br>
+           <h2>Frequently Asked Questions</h2><br>
        </div>
        <div class="faqs-section">
   
@@ -348,6 +425,8 @@ include __DIR__ . '/components/footer.php';
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
  <script>
   $(function(){
@@ -585,4 +664,24 @@ window.addEventListener("pageshow", function () {
             document.getElementById(tab.dataset.tab).classList.remove('hidden');
         });
     });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const mbaCertSlider = new Swiper('#mbaCertSwiperInstance', {
+        loop: true,
+        speed: 600, // Slightly faster for a "snappy" slide feel
+        centeredSlides: true, 
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        // Changed effect from 'fade' to 'slide'
+        effect: 'slide', 
+        pagination: {
+            el: '.mba-journey-cert-pagination',
+            clickable: true,
+        },
+    });
+});
 </script>

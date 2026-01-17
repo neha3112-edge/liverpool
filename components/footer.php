@@ -5,7 +5,7 @@
     <div class="container">
     <div class="footer-section">
             <div class="footer-column"><br>
-                <A href="https://liverpool.distanceeducationschool.in/"><img src="assets/img/liverpool-white.png" alt="logo-img" width="50%"/></a><br><br>
+                <A href="https://liverpool.distanceeducationschool.in/"><img src="assets/img/new-logo.png" alt="logo-img" width="50%"/></a><br><br>
                   <p style="font-size:30px;">Transform Your Career with a Globally Recognized <br>Online DBA Degree for Business Leaders</p>
                
 <!-- <button class="enquireNowBtn">Enquire Now</button> -->
