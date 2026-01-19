@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="assets/img/liverpool-fevi.png"/>
-    <title>Liverpool John Moores University Online MBA</title>
-    <meta name="description" content="Liverpool John Moores University Online MBA University | Masters in Business Administration. Find Online Course Fees, Eligibility and Admission Details 2026">
+    <title>Liverpool Business School Online MBA | LBS Online MBA Program</title>
+    <meta name="description" content="Liverpool Business School Online MBA is an 18-month program with IMT Ghaziabad. Learn leadership, management, and business skills with global recognition.">
     <meta keyword="Liverpool John Moores University Online MBA,liverpool business school mba program,university of liverpool mba online,liverpool business school online mba">
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
