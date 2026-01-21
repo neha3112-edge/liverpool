@@ -26,12 +26,12 @@
 
         <select name="course" class="form-control" id="courseSelect" required>
             <option value="" selected disabled>Select Your Course</option>
-		     <option value="MBA in Business Analytics">MBA in Business Analytics </option>
-             <option value="MBA in Finance">MBA in Finance</option>
-             <option value="MBA in Marketing">MBA in Marketing  </option>
-             <option value="MBA in Leadership">MBA in Leadership </option>
-             <option value="MBA in Human Resources Management">MBA in Human Resources Management</option>
-             <option value="MBA in Operation and Supply Chain Management">MBA in Operation and Supply Chain Management</option>
+		     <option value="MBA">MBA in Business Analytics </option>
+             <option value="MBA">MBA in Finance</option>
+             <option value="MBA">MBA in Marketing  </option>
+             <option value="MBA">MBA in Leadership </option>
+             <option value="MBA">MBA in Human Resources Management</option>
+             <option value="MBA">MBA in Operation and Supply Chain Management</option>
         </select>
         <!-- <label>State <span class="required">*</span></label> -->
         <select name="state" class="form-control" id="state" required>
