@@ -10,14 +10,7 @@ $course = $_GET['course'] ?? '';
 		<title>Thank you For Submitting Your Details </title>
 		<meta name="description" content="#">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Event snippet for ESGCI_LP conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-868968102/XqS-CJfUvaQbEKbNrZ4D',
-      'value': 1.0,
-      'currency': 'INR'
-  });
-</script>
+
 	</head>
 	<body>
 		<?php include "navbar.php"; ?>
