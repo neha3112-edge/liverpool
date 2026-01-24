@@ -270,3 +270,8 @@ border: none;
     flex-direction: column;
 }
 }
+
+
+#enquiry-form1-demo #full_name,#enquiry-form1-demo #email {
+  width: 100%;
+}

@@ -703,3 +703,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+
+<script>
+  document.querySelectorAll('.nav-list a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('nav-check').checked = false;
+    });
+  });
+</script>

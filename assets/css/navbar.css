@@ -140,6 +140,7 @@ ul {
     top: 70px!important;
     left: 0;
     overflow: hidden;
+    padding-left: 20px;
   }
   .nav > .nav-list > li {
     width: 100%;
