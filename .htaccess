@@ -1,9 +1,12 @@
 RewriteEngine On
 RewriteBase /
 
-# Check if the requested filename is not a file
+# Explicit rule for /msc
+RewriteRule ^msc/?$ msc.php [L,NC]
+
+# If request is not a real file or folder
 RewriteCond %{REQUEST_FILENAME} !-f
-# Check if the requested filename is not a directory
 RewriteCond %{REQUEST_FILENAME} !-d
-# Rewrite the request to add .php file extension
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Add .php extension automatically
+RewriteRule ^([^\.]+)$ $1.php [L,NC]
