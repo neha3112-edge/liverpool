@@ -1,9 +1,13 @@
 RewriteEngine On
 
-# Serve msc.php when /msc is requested
-RewriteRule ^msc/?$ msc.php [L]
+# ------------------------------------
+# 1. Redirect .php URLs to clean URLs
+# ------------------------------------
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.php [NC]
+RewriteRule ^ %1 [R=301,L]
 
-# Generic PHP extension handler
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^\.]+)$ $1.php [L]
+# ------------------------------------
+# 2. Load .php file for clean URLs
+# ------------------------------------
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^.]+)$ $1.php [L]
