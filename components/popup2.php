@@ -70,7 +70,7 @@
     <div id="brochurePopup" class="popup-overlay">
       <div class="popup-content">
         <span class="close-btn" onclick="closePopup('brochurePopup')">&times;</span>
-     <form action="mail.php" method="post" name="form" id="enquiry-form1-demo">
+     <form action="mail2.php" method="post" name="form" id="enquiry-form1-demo">
         <h2>Download Brochure</h2>
 		 <center> <p>Please enter your details to download the brochure:</p></center>
                     <div>
@@ -148,6 +148,7 @@
                     <input type="hidden" name="utm_term" id="utm_term" value="">
                     <input type="hidden" name="page_url" id="page_url" value="">
                     <input type="hidden" name="brochure_pdf" id="brochure_pdf">
+                    <input type="hidden" name="show_brochure" value="yes">
                     <br>
                     <center>
                         <button type="submit" name="submit" value="send" class="sub-btn" id="downloadBrochureBtn2">Submit</button>
@@ -194,30 +195,20 @@
     </script>
 
 <script>
-document.addEventListener('submit', function (event) {
+document.getElementById('enquiry-form1-demo').addEventListener('submit', function(e) {
+    const form = this;
+    const brochurePDF = document.getElementById('brochure_pdf').value;
 
-  const form = event.target;
+    // Open PDF in a new tab if it exists
+    if (brochurePDF) {
+        // Must happen immediately on user action
+        window.open(brochurePDF, '_blank');
+    }
 
-  if (form.id !== 'enquiry-form1-demo') return;
-
-  event.preventDefault(); // STOP form submission first
-
-  const brochurePDF = document.getElementById('brochure_pdf').value;
-
-  if (!brochurePDF) {
-    alert('Brochure not found.');
-    return;
-  }
-
-  // Open PDF
-  window.open(brochurePDF, '_blank');
-
-  // Submit form AFTER opening PDF
-  setTimeout(() => {
-    form.submit();
-  }, 300);
-
+    // Let the form submit normally (no preventDefault needed)
 });
 </script>
+
+
 
   
